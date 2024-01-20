@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 h1{
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -14,4 +17,48 @@ h1{
 }
 .uppersidedesign img{
 width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 17px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+.top-banner-02{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.single-design{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: aliceblue;
+}
+.experiencearea{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+border-image-slice: 1;
+}
+#full-stack2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+border-image-slice: 1;
 }
